@@ -4,7 +4,7 @@ cd projectos
 cd $2
 
 virtualenv hosthome_env
-cd hosthome_env
+cd $2"\\"hosthome_env
 bin/activate
 cd ..
 
