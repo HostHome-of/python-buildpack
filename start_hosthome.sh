@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo $1
+
 cd projectos
 cd $1
 
