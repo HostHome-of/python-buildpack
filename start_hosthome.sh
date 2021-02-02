@@ -7,8 +7,7 @@ cd $1
 
 virtualenv hosthome_env
 cd $1"\\"hosthome_env
-pwd
-bin/activate
+Scripts/activate
 cd ..
 
 if [ -f $1"\\"requirements.txt ]
