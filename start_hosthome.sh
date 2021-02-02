@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cd projectos
-cd "$2"
+cd $2
 
 virtualenv hosthome_env
 cd hosthome_env
