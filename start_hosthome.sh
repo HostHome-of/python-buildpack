@@ -7,6 +7,7 @@ cd $1
 
 virtualenv hosthome_env
 cd $1"\\"hosthome_env
+pwd
 bin/activate
 cd ..
 
