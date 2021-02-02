@@ -10,5 +10,5 @@ cd ..
 
 if [ -f $1"\\"requirements.txt ]
 then
-    pip install -r requirements.txt
+    pip install -r $1"\\"requirements.txt
 fi
