@@ -8,7 +8,7 @@ cd $1"\\"hosthome_env
 bin/activate
 cd ..
 
-if [ -f requirements.txt ]
+if [ -f $1"\\"requirements.txt ]
 then
     pip install -r requirements.txt
 fi
