@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-cd projectos
 cd $1
 
 virtualenv hosthome_env
