@@ -4,7 +4,7 @@ cd $1
 
 virtualenv hosthome_env
 cd $1"\\"hosthome_env
-.\\Scripts\\activate.bat
+.\\Scripts\\activate
 cd ..
 
 if [ -f $1"\\"requirements.txt ]
