@@ -9,5 +9,5 @@ cd ..
 
 if [ -f $1"\\"requirements.txt ]
 then
-    pip install -r $1"\\"requirements.txt --no-python-version-warning --quiet --no-color
+    pip install -r $1"\\"requirements.txt --no-python-version-warning --quiet
 fi
