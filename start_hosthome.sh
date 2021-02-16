@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+@echo "off"
 
 cd $1
 
